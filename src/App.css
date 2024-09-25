@@ -1,0 +1,86 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* Overall layout */
+div {
+  font-family: "Arial", sans-serif;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+h2 {
+  color: #333;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 4px;
+}
+
+/* Paragraphs */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Loading and error messages */
+p {
+  color: #d9534f; /* Bootstrap 'btn-danger' color */
+  text-align: center;
+}
+
+/* Profile section */
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Project list items */
+p {
+  background-color: #f9f9f9;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  margin: 5px 0;
+}
+
+.read-the-docs {
+  color: #888;
+}
